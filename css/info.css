@@ -10,6 +10,9 @@
     --orange-color-hover: #fa7704;
     --intro-benifit: rgba(255, 255, 255, 0.814);
 }
+.header{
+    background: #FFF;
+}
 .info{
         margin-top: 115.19px;
     }
