@@ -44,16 +44,3 @@ ScrollTrigger.create({
     end: "bottom",
     scrub: true,
 })
-let headertlAct = gsap.timeline()
-headertlAct.to(".header", {y: -150, duration: 2, opacity:0})
-            .to(".header", { duration:0.6, background: "#fff", })
-            .to(".header", {y: 0, duration:2, opacity:1, paddingBottom: "5px", paddingTop: "10px"})
-
-
-ScrollTrigger.create({
-    animation: headertlAct,
-    trigger: ".intro",
-    start: "top",
-    end: "bottom",
-    scrub: true,
-})
